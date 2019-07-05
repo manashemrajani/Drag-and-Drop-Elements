@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag and Drop items</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="list" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">
+        <li draggable="true" id="hello" ondragstart = "return dragStart(event)">hello</li>
+        <li draggable="true" id="How" ondragstart = "return dragStart(event)">How</li>
+        <li draggable="true" id="are" ondragstart = "return dragStart(event)">are</li>
+        <li draggable="true" id="you" ondragstart = "return dragStart(event)">you</li>
+    </ul>
+    <ul class="list" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">
+        <li draggable="true" id="Okay" id="Okay" ondragstart = "return dragStart(event)">Okay</li>
+        <li draggable="true" id="It" ondragstart = "return dragStart(event)">It</li>
+        <li draggable="true" id="was" ondragstart = "return dragStart(event)">was</li>
+        <li draggable="true" id="nice" ondragstart = "return dragStart(event)">nice</li>
+        <li draggable="true" id="meeting" ondragstart = "return dragStart(event)">meeting</li>
+        <li draggable="true" id="you" ondragstart = "return dragStart(event)">you</li>
+    </ul>
+</body>
+</html>
